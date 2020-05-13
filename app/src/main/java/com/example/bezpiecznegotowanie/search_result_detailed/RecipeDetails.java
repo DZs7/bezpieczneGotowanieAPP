@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.bezpiecznegotowanie.R;
 
-public class MainActivity extends AppCompatActivity {
+public class RecipeDetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
