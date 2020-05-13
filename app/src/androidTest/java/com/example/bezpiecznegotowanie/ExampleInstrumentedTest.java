@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.bezpiecznegotowanie;
 
 import android.content.Context;
 

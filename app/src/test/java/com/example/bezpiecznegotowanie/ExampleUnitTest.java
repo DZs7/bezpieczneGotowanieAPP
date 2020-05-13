@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.bezpiecznegotowanie;
 
 import org.junit.Test;
 

@@ -1,8 +1,10 @@
-package com.example.myapplication;
+package com.example.bezpiecznegotowanie.search_result_detailed;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.bezpiecznegotowanie.R;
 
 public class MainActivity extends AppCompatActivity {
 
