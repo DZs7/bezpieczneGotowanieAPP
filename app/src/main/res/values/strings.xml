@@ -37,9 +37,16 @@
     <string name="title_activity_login">BezpieczneGotowanie</string>
     <string name="password_hint">Hasło</string>
     <string name="email_hint">E-mail</string>
-    <string name="singIn_button_label">Zaloguj się</string>
-    <string name="button_register_label">Rejestracja</string>
+    <string name="singIn_button_label"> Zaloguj się </string>
+    <string name="button_register_label"> Rejestracja </string>
     <string name="Continue_without_signing">Kontynuuj bez logowania</string>
     <string name="missing_email_password_message">Konieczne jest podanie adresu e-mail i hasła</string>
     <string name="user_info_activity_label">Informacje o użytkowniku</string>
+    <string name="odwied_nasz_stron">Odwiedź naszą stronę.</string>
+    <string name="bezpieczne_gotowanie">Bezpieczne Gotowanie</string>
+    <string name="start">Start</string>
+    <string name="mi_o_ci_znowu_widzie">Miło Cię znowu widzieć!</string>
+    <string name="witaj">Witaj!</string>
+    <string name="lub">--------Lub--------</string>
+    <string name="click">Click!</string>
 </resources>

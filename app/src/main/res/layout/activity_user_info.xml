@@ -13,7 +13,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
+        android:background="@drawable/button2"
         android:text="Send Data"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_email" />
 
@@ -24,8 +26,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="16dp"
-        android:text="Receive Data"
+        android:background="@drawable/button2"
         android:onClick="receiveData"
+        android:text="Receive Data"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_send_data" />
 
