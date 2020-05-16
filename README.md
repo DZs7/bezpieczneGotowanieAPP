@@ -1,2 +1,2 @@
-BEzieczne Gotowanie
+Bezpieczne Gotowanie
 
