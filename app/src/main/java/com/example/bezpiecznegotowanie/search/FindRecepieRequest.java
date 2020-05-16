@@ -12,7 +12,7 @@ import com.example.bezpiecznegotowanie.search_result.RecipesList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindRecepieRequest extends AsyncTask<FindRecipeApi, Integer, List<Recipe>> {
+public class FindRecepieRequest extends AsyncTask<FindRecipeApi,Integer, List<Recipe>> {
 
     private Context mContext;
 

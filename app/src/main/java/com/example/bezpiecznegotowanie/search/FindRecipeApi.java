@@ -13,7 +13,6 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class FindRecipeApi {
 
-
     private String mQueryIngredients = "";
     private String mQueryRecipeCount;
     private String mQueryPreparationTime;

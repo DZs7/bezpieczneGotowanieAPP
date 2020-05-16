@@ -17,8 +17,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.bezpiecznegotowanie.login.UserInfo;
 import com.example.bezpiecznegotowanie.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -109,7 +107,7 @@ public class FindAction extends AppCompatActivity implements TextView.OnEditorAc
     }
 
     public void displayToast(String message){
-        Toast.makeText(this,message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
     }
 
 }
