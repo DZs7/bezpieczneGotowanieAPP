@@ -9,8 +9,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JSONParser {
-
+class JSONParser {
 
     private final static String JSON_KEY_RECIPE_ARRAY = "hits";
     private final static String JSON_KEY_RECIPE_OBJECT = "recipe";
@@ -42,4 +41,3 @@ public class JSONParser {
         return recipeList;
     }
 }
-
