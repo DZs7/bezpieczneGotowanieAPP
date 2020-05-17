@@ -1,0 +1,41 @@
+{
+
+  "project_info": {
+    "project_number": "631239448616",
+    "firebase_url": "https://projekt-7fa2c.firebaseio.com",
+    "project_id": "projekt-7fa2c",
+    "storage_bucket": "projekt-7fa2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631239448616:android:0665437b136d4092747d1d",
+        "android_client_info": {
+          "package_name": "com.example.bezpiecznegotowanie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631239448616-ie7rg015sp1o417ou3ei46s21sh52gud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgUGmW6eIkbaUPm-4PzLj2ncNH9eEb1YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631239448616-ie7rg015sp1o417ou3ei46s21sh52gud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

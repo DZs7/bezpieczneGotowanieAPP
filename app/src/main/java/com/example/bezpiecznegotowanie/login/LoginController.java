@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.bezpiecznegotowanie.R;
@@ -18,8 +17,6 @@ public class LoginController extends AppCompatActivity {
     private EditText mEmail;
     private EditText mPassword;
 
-    ImageView backButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,14 +26,6 @@ public class LoginController extends AppCompatActivity {
         mEmail.setText("");
         mPassword.setText("");
         mFirebaseAuth = FirebaseAuth.getInstance();
-        backButton = findViewById(R.id.backBtn);
-
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
     }
 
     public void startAppWithoutSigning(View v){
