@@ -13,16 +13,9 @@
 
     <ImageButton
         android:id="@+id/removeButton"
-<<<<<<< HEAD
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:contentDescription="Usuń"
         android:src="@drawable/ic_remove_ingredient" />
-=======
-        android:background="@android:color/transparent"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:contentDescription="TODO" android:src="@drawable/ic_remove_ingredient"/>
->>>>>>> master
 </LinearLayout>
