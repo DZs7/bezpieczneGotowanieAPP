@@ -78,11 +78,7 @@ public class FindAction extends AppCompatActivity implements TextView.OnEditorAc
         if (id == R.id.action_user_info) {
             FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
             if(currentUser == null) {
-<<<<<<< HEAD
                 displayToast("Nie jesteś zalogowany!");
-=======
-                displayToast("You are not logged in!");
->>>>>>> master
                 return true;
             }
             else{
@@ -107,11 +103,7 @@ public class FindAction extends AppCompatActivity implements TextView.OnEditorAc
     }
 
     public void searchForRecipes(View view) {
-<<<<<<< HEAD
         new FindRecepieRequest(getApplicationContext()).execute(new FindRecipeApi(mIngredients,10,60));
-=======
-        new FindRecepieRequest(getApplicationContext()).execute(new FindRecipeApi(mIngredients,5,60));
->>>>>>> master
     }
 
     public void displayToast(String message){
